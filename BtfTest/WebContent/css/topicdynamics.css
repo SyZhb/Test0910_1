@@ -1,0 +1,350 @@
+/* 
+* @Author: anchen
+* @Date:   2017-03-21 14:29:00
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-03-29 12:21:38
+*/
+/*知乎话题动态部分开始*/
+/*左半部分开始*/
+.contentmain-left{
+    position: relative;
+    margin: 0 328px 0 0;
+}
+.lefttltle{
+    font-size: 14px;
+    font-weight: 700;
+    color: #666;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+}
+.tilteimg{
+    width: 16px;
+    height: 16px;
+    vertical-align: -4px;
+    margin-right: 5px;
+    background-position: -71px -88px;
+    background-image: url(../images/title.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.lefttltle span{
+    font-size: 14px;
+    font-weight: 700;
+    color: #666;
+}
+.lefttltle a{
+    font-size: 12px;
+    float: right;
+    text-decoration: none;
+    color: #999;
+    font-weight: 400;
+    margin-top: 3px;
+}
+.topic{
+    padding: 18px 0 8px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+}
+.topic li{
+    float: left;
+    margin: 0 10px 10px 0;
+    list-style: none;
+}
+.topic li a{
+    border-color: #259;
+    color: #259;
+    display: block;
+    padding: 0 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 1px solid #daecf5;
+}
+.topic li a:hover{
+    background-color: #259;
+    color: #fff;
+}
+.topicone{
+    line-height: 20px;
+}
+.head{
+    float: left;
+    text-decoration: none;
+    color: #259;
+}
+.head img{
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+    border-radius: 4px;
+    background-color: #eee;
+}
+.headtitle{
+    color: #555;
+    font-weight: 700;
+    font-size: 14px;
+    max-width: 40%;
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+    text-decoration: none;
+}
+.order{
+    text-align: right;
+    padding: 0 0 15px;
+    color: #999;
+    font-size: 12px;
+    line-height: 40px;
+}
+.order a{
+    color: #999;
+    cursor: text;
+    margin: 0 3px;
+    text-align: right;
+    font-size: 12px;
+    text-decoration: none;
+    cursor: text;
+}
+.topiclist-container{
+
+}
+.listitem{
+    padding: 10px 0;
+    position: relative;
+    margin-left: 0;
+    outline: 0;
+    display: block;
+}
+.listitem h2{
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    outline: 0;
+    margin-right: 0;
+}
+.listitem a{
+    color: #259;
+    text-decoration: none;
+}
+.expandable{
+    margin-left: 48px;
+    position: relative;
+    margin-top: 3px;
+    display: block;
+}
+.zan{
+    display: block;
+    margin-top: -1px;
+    position: absolute;
+    left: -48px;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+.zan a{
+    display: block;
+    color: #698ebf;
+    height: 24px;
+    line-height: 24px;
+    width: 38px;
+    border-radius: 3px;
+    border: 0;
+    cursor: pointer;
+    background: #eff6fa;
+    font-weight: 700;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+}
+.name{
+    margin-bottom: 2px;
+    margin: 0 0 1px;
+}
+.summary-wrapper{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    max-width: 460px;
+    color: #999;
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.author-link-line{
+    color: #222;
+    word-wrap: normal;
+    white-space: nowrap;
+}
+.author-link-line a{
+    font-weight: 700;
+    color: inherit;
+    text-decoration: none;
+}
+.wangming{
+    color: #999;
+    margin: 3px 0;
+    word-wrap: normal;
+    white-space: nowrap;
+}
+.article{
+    -webkit-tap-highlight-color: rgba(225,225,225,.5);
+    position: relative;
+    cursor: pointer;
+}
+.toggle-expand{
+    display: inline-block;
+    padding: 0 3px;
+    border-radius: 2px;
+    font-size: .9em;
+    color: #259;
+    text-decoration: none;
+}
+.banquan{
+    margin-bottom: 0;
+    position: relative;
+}
+.banquan a{
+    color: #999;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+/*左半部分结束*/
+
+/*右半部分开始*/
+.right{
+    position: relative;
+    float: right;
+    margin: 0 0 0 -270px;
+    width: 270px;
+}
+.topics-plaza{
+    margin-bottom: 20px;
+    padding: 34px 0;
+    border: 1px solid #cce1ef;
+    border-radius: 4px;
+    background: #eff6fA;
+    text-align: center;
+}
+.zg-btn-blue{
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none!important;
+    vertical-align: middle;
+    display: inline-block;
+    _display: inline!important;
+    text-align: center;
+    padding: 4px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    color: #fff!important;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    background: linear-gradient(to bottom,#1d7fe2,#0865c2);
+    border: 1px solid #0D6EB8;
+    box-shadow: 0 1px 0 rgba(255,255,255,.2) inset,0 1px 0 rgba(0,0,0,.2);
+}
+.text{
+    display: block;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #5488b4;
+    text-decoration: none;
+}
+.topic-recommend{
+    border-radius: 0;
+    border-width: 1px 0 0;
+    padding-bottom: 10px;
+    box-shadow: none;
+    margin-top: 25px;
+    border-top: 1px solid #ddd;
+}
+.topic-recommend-head{
+    border-bottom: 0;
+    padding: 15px 0 9px;
+    overflow: hidden;
+}
+.topic-recommend-name{
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: #666;
+    position: relative;
+    top: -10px;
+}
+.topic-recommend-head a{
+    float: right;
+    position: relative;
+    margin-left: 12px;
+    top: 2px;
+    color: #698ebf;
+    font-weight: 400;
+    text-decoration: none;
+}
+.topic-recommend-list{
+
+}
+.listone{
+    padding: 0 0 10px;
+    border-top: 0;
+    position: relative;
+    margin: 6px 0 0;
+}
+.listimg{
+    float: left;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-top: 0;
+    background-image: url(../images/dongman.jpg);
+}
+.listwenzi{
+    margin: 0 0 0 56px;
+    line-height: 40px;
+    position: relative;
+}
+.listwenzi h3{
+    margin: 0 60px 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.tiaozhuan{
+    color: #259;
+    text-decoration: none;
+}
+.guanzhu{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #698ebf;
+    margin-left: 7px;
+    text-decoration: none;
+}
+
+.actived{
+    background-color: #259;
+    color: #fff !important;
+}
+
+.a{
+    display: inline-block;
+    height: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: pre-line;
+    color: #333;
+}
+.b{
+        /* float: right; */
+    /* margin-left: 85%; */
+    position: absolute;
+    right: 10px;
+    /* top: 58px; */
+    bottom: 0;
+}
+
+/*右半部分开始*/
+/*知乎话题动态部分结束*/

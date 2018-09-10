@@ -1,0 +1,142 @@
+/* 
+* @Author: anchen
+* @Date:   2017-03-23 13:56:24
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-03-29 16:30:02
+*/
+body{
+    background: #f7f8fa;
+}
+.main1{
+    position: relative;
+    width: 1425px;
+    margin: 60px auto 0;
+    background-color: #fff;
+    border-bottom: 1px solid #e7eaf1;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0,37,55,.05);
+}
+.card1{
+    box-sizing: border-box;
+    width: 970px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+.topic{
+    padding: 18px 0 8px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.topic li{
+    float: left;
+    margin: 0 10px 10px 0;
+    list-style: none;
+}
+.topic li a{
+    border-color: #259;
+    color: #259;
+    display: block;
+    padding: 0 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 1px solid #daecf5;
+}
+.topic li a:hover{
+    background-color: #259;
+    color: #fff;
+}
+.card1 h1{
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #1e1e1e;
+}
+.card1 h4{
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 100;
+}
+.card1 button{
+    position: relative;
+    float: right;
+    display: inline-block;
+    padding: 0 16px;
+    font-size: 14px;
+    line-height: 34px;
+    color: #8590a6;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ccd8e1;
+    border-radius: 3px;
+    background-color: #fff;
+    top: -50px;
+    right: 20px;
+    border-radius: 5px;
+}
+.questions-list{
+    width: 1000px;
+    margin: 15px auto;
+    background: #fff;
+    border: 1px solid #e7eaf1;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0,37,55,.05);
+    box-sizing: border-box;
+}
+.list-header{
+    align-items: center;
+    margin: 25px 10px 10px 10px;
+    border-bottom: 1px solid #f0f2f7;
+    padding-bottom: 10px;
+}
+.list-header h4{
+    font-weight: 500;
+}
+.list-header button{
+    float: right;
+    padding: 0 10px;
+    border: 1px solid transparent;
+    height: 40px;
+    line-height: 38px;
+    color: #262626;
+    text-align: left;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+}
+.list-item{
+    position: relative;
+    font-size: 14px;
+}
+.shuoming{
+    margin: 5px 0;
+    font-size: 14px;
+    color: #8590a6;
+}
+.zantong{
+    z-index: 2;
+    box-sizing: border-box;
+    width: 688px;
+    bottom: 0px;
+    left: 212.5px;
+    align-items: center;
+    height: 56px;
+    padding: 0 24px;
+    margin: 0 -24px -8px;
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0px;
+}
+.zantong span{
+    display: inline-block;
+    height: 34px;
+    padding: 0 10px;
+    line-height: 32px;
+    color: #2d84cc;
+    text-align: center;
+    cursor: pointer;
+    background: #ebf3fb;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
